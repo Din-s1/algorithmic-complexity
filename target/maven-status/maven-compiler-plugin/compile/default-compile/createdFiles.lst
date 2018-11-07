@@ -5,6 +5,7 @@ org/sample/generated/MyBenchmark_MyState_jmhType_B3.class
 org/sample/generated/MyBenchmark_jmhType_B1.class
 org/sample/generated/MyBenchmark_MyState_jmhType.class
 org/sample/generated/MyBenchmark_testMethod_jmhTest.class
+org/sample/Cohort.class
 META-INF/BenchmarkList
 org/sample/generated/MyBenchmark_jmhType_B2.class
 org/sample/generated/MyBenchmark_MyState_jmhType_B2.class

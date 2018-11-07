@@ -32,9 +32,9 @@
 package org.sample;
 
 import org.openjdk.jmh.annotations.*;
+
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-import java.util.*;
-import java.io.*;
 
 /*
 To build:
@@ -84,7 +84,9 @@ public class MyBenchmark {
 
 //        state.list.get(state.list.size()-1); // Last
 //        Collections.reverse(state.list); // Reverse
-        Collections.shuffle(state.list); // Shuffle
+//        Collections.shuffle(state.list); // Shuffle
 //        Collections.sort(state.list); // Sort
+        Cohort.finalCohortGrouping();
+
     }
 }
